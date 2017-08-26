@@ -1,0 +1,169 @@
+[  
+    {  
+        "state":{  
+            "opened":false
+        },
+        "text":"<span class='jira' data-status='AD' data-name='Workday'></span>",
+        "children":[  
+            {  
+                "state":{  
+                    "opened":false
+                },
+                "text":"<span class='jira' data-status='AD' data-name='Worker -> BXCore feed'></span>",
+                "children":[  
+                    {  
+                        "state":{  
+                            "opened":false
+                        },
+                        "text":"<span class='jira' data-status='V' data-name='Build workersync endpoint in bxiapi'></span>",
+                        "children":[  
+                            {  
+                                "state":{  
+                                    "opened":false
+                                },
+                                "text":"<span class='jira' data-status='V' data-name='Get worker xml schema'></span>"
+                            },
+                            {  
+                                "state":{  
+                                    "opened":false
+                                },
+                                "text":"<span class='jira' data-status='V' data-name='Write XML parser for worker xml'></span>"
+                            },
+                            {  
+                                "state":{  
+                                    "opened":false
+                                },
+                                "text":"<span class='jira' data-status='V' data-name='Write schema validator'></span>"
+                            }
+                        ]
+                    },
+                    {  
+                        "state":{  
+                            "opened":false
+                        },
+                        "text":"<span class='jira' data-status='AD' data-name='Build worker processor flow demon stage'></span>",
+                        "children":[  
+                            {  
+                                "state":{  
+                                    "opened":false
+                                },
+                                "text":"<span class='jira' data-status='T' data-name='Build concurrency model'></span>"
+                            },
+                            {  
+                                "state":{  
+                                    "opened":false
+                                },
+                                "text":"<span class='jira' data-status='C' data-name='Analyze BXUserEmployeeLoader for target writes'></span>"
+                            },
+                            {  
+                                "state":{  
+                                    "opened":false
+                                },
+                                "text":"<span class='jira' data-status='AD' data-name='Write attributes'></span>",
+                                "children":[  
+                                    {  
+                                        "state":{  
+                                            "opened":false
+                                        },
+                                        "text":"<span class='jira' data-status='AD' data-name='Write emails'></span>",
+                                        "children":[  
+                                            {  
+                                                "text":"<span class='jira' data-status='IP' data-name='Fix bug in email-writing procs'></span>"
+                                            },
+                                            {  
+                                                "text":"<span class='jira' data-status='C' data-name='Write sql unit tests for dataapi proc to validate bug fix'></span>"
+                                            }
+                                        ]
+                                    },
+                                    {  
+                                        "state":{  
+                                            "opened":false
+                                        },
+                                        "text":"<span class='jira' data-status='AD' data-name='Write photos'></span>",
+                                        "children":[  
+                                            {  
+                                                "text":"<span class='jira' data-status='IP' data-name='Fix dataapi bug with byte array'></span>"
+                                            }
+                                        ]
+                                    },
+                                  	{  
+                                        "state":{  
+                                            "opened":false
+                                        },
+                                        "text":"<span class='jira' data-status='AD' data-name='Write user hierarchies'></span>",
+                                        "children":[  
+                                            {  
+                                                "text":"<span class='jira' data-status='IP' data-name='Add support for source-system-based syncs'></span>"
+                                            }
+                                        ]
+                                    },
+                                  	{  
+                                        "state":{  
+                                            "opened":false
+                                        },
+                                        "text":"<span class='jira' data-status='AD' data-name='Write user offices'></span>",
+                                        "children":[  
+                                            {  
+                                                "text":"<span class='jira' data-status='IP' data-name='Write new dataapi proc'></span>"
+                                            },
+                                            {  
+                                                "text":"<span class='jira' data-status='IP' data-name='Add new data items'></span>"
+                                            }
+                                        ]
+                                    },
+                                  	{  
+                                        "state":{  
+                                            "opened":false
+                                        },
+                                        "text":"<span class='jira' data-status='AD' data-name='Write user assistants'></span>",
+                                        "children":[  
+                                            {  
+                                                "text":"<span class='jira' data-status='IP' data-name='Fix upsert bug in userrelationship proc'></span>"
+                                            }
+                                        ]
+                                    },
+                                    {  
+                                        "state":{  
+                                            "opened":false
+                                        },
+                                        "text":"<span class='jira' data-status='IP' data-name='Write phones'></span>"
+                                    },
+                                    {  
+                                        "state":{  
+                                            "opened":false
+                                        },
+                                        "text":"<span class='jira' data-status='AV' data-name='Write addresses'></span>",
+                                        "children":[  
+                                            {  
+                                                "text":"<span class='jira' data-status='AV' data-name='Add new address types'></span>"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+                    {  
+                        "state":{  
+                            "opened":false
+                        },
+                        "text":"<span class='jira' data-status='AD' data-name='Data Migrations'></span>",
+                        "children":[  
+                            {  
+                                "state":{  
+                                    "opened":false
+                                },
+                                "text":"<span class='jira' data-status='T' data-name='Migrate employee IDs in BXCore'></span>",
+                                "children":[  
+                                    {  
+                                        "text":"<span class='jira' data-status='T' data-name='Get new IDs from Padraic'></span>"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+        ]
+    }
+]
